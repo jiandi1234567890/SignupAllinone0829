@@ -108,6 +108,7 @@
 		D8BCC8341D3DC006000843D7 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCC8321D3DC006000843D7 /* UIView_extra.m */; };
 		D8BCC8371D3DC068000843D7 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCC8361D3DC068000843D7 /* LeftSortsViewController.m */; };
 		D8BCC83C1D3DF351000843D7 /* slideBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BCC83B1D3DF351000843D7 /* slideBackground.png */; };
+		D8D0F7D21D752F7E00D87983 /* TEXTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0F7D11D752F7E00D87983 /* TEXTViewController.m */; };
 		D8D469FF1D42084A00147907 /* mysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D469FC1D42084A00147907 /* mysong.mp3 */; };
 		D8D46A001D42084A00147907 /* RunInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D469FE1D42084A00147907 /* RunInBackground.m */; };
 		D8D855EB1D40CDD10015C0F7 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D8D855EA1D40CDD10015C0F7 /* back.png */; };
@@ -321,6 +322,8 @@
 		D8BCC8351D3DC068000843D7 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
 		D8BCC8361D3DC068000843D7 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
 		D8BCC83B1D3DF351000843D7 /* slideBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideBackground.png; sourceTree = "<group>"; };
+		D8D0F7D01D752F7E00D87983 /* TEXTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEXTViewController.h; sourceTree = "<group>"; };
+		D8D0F7D11D752F7E00D87983 /* TEXTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEXTViewController.m; sourceTree = "<group>"; };
 		D8D469FC1D42084A00147907 /* mysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysong.mp3; sourceTree = "<group>"; };
 		D8D469FD1D42084A00147907 /* RunInBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunInBackground.h; sourceTree = "<group>"; };
 		D8D469FE1D42084A00147907 /* RunInBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunInBackground.m; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 				7F5AF1671D13C50700D38A5A /* Info.plist */,
 				7F5AF1561D13C50700D38A5A /* Supporting Files */,
 				7F76213F1D13D15E0054A7D6 /* QDPrefixHeader.pch */,
+				D8D0F7D01D752F7E00D87983 /* TEXTViewController.h */,
+				D8D0F7D11D752F7E00D87983 /* TEXTViewController.m */,
 			);
 			path = SignupAllinone;
 			sourceTree = "<group>";
@@ -1056,6 +1061,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D0F7D21D752F7E00D87983 /* TEXTViewController.m in Sources */,
 				7F76211D1D13C8F40054A7D6 /* SlideTableViewCell.m in Sources */,
 				7F5AF27C1D13C6DB00D38A5A /* UIProgressView+AFNetworking.m in Sources */,
 				7F5AF27F1D13C6DB00D38A5A /* FMDatabase.m in Sources */,
