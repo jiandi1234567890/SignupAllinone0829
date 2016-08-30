@@ -1,0 +1,34 @@
+//
+//  QDPrefixHeader.pch
+//  SignupAllinone
+//
+//  Created by 广为网络 on 16/6/17.
+//  Copyright © 2016年 广为网络. All rights reserved.
+//
+
+#ifndef QDPrefixHeader_pch
+#define QDPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+SDAutoLayout.h"//布局
+#import "MBProgressHUD.h"//提示
+#import "NSString+SCMyString.h"
+
+#endif /* QDPrefixHeader_pch */
+//读取本地图片
+#define IMAGE_PASE(FORMAT,TYPE) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:FORMAT ofType:TYPE]]
+//取(存储本地数据)
+#define QU_DATA(KEY)[[NSUserDefaults standardUserDefaults] objectForKey:KEY]
+//存(存储本地数据)
+#define CUN_DATA(OBJCT,KEY) [[NSUserDefaults standardUserDefaults] setObject:OBJCT forKey:KEY];
+//HUD // hud.dimBackground=YES;
+#define HUD_NAME(NAME,DELAY) MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];\
+hud.mode = MBProgressHUDModeText;\
+hud.label.text=NAME;\
+hud.label.numberOfLines=0;\
+hud.offset = CGPointMake(0, -30);\
+hud.backgroundView.style=MBProgressHUDBackgroundStyleSolidColor;\
+hud.backgroundView.color = [UIColor colorWithWhite:0.1f alpha:0.6f];\
+[hud hideAnimated:YES afterDelay:DELAY];
